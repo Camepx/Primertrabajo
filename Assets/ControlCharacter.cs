@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ControlCharacter : MonoBehaviour
 {
+    public GameObject characterPrincipal;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class ControlCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += Vector3.forward * Time.deltaTime; 
     }
 }
