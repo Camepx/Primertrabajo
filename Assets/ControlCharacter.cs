@@ -5,7 +5,8 @@ using UnityEngine;
 public class ControlCharacter : MonoBehaviour
 {
     public GameObject characterPrincipal;
-    public float velocidad = 20f;
+    public float velocidad=20f;
+    public GameObject bala;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +39,14 @@ public class ControlCharacter : MonoBehaviour
             //transform.position -= Vector3.right * Time.deltaTime;
             transform.eulerAngles -= new Vector3(0,velocidad * Time.deltaTime,0);
         }
-
+        //Cuando presione la letra A hago un turbo
+        if (Input.GetKeyDown(KeyCode.A)){
+            transform.position += transform.forward * velocidad * Time.deltaTime;
+        }
+        //Cuando presione la letra space hago un disparo
+        if (Input.GetKey(KeyCode.Space)){
+            Instantiate(bala, transform.position, transform.rotation); 
+        }
     }
        
             
