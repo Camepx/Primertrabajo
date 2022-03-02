@@ -29,7 +29,7 @@ public class ControlCharacter : MonoBehaviour
         //Cuando presione la tecla RIGCHT
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += Vector3.right * Time.deltaTime;
+            //transform.position += Vector3.right * Time.deltaTime;
             transform.eulerAngles += new Vector3(0,velocidad * Time.deltaTime,0);
         }
         //Cuando presione la tecla LEFT
