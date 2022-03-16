@@ -40,12 +40,14 @@ public class ControlCharacter : MonoBehaviour
             transform.eulerAngles -= new Vector3(0,velocidad * Time.deltaTime,0);
         }
         //Cuando presione la letra A hago un turbo
-        if (Input.GetKeyDown(KeyCode.A)){
+        if (Input.GetKeyDown(KeyCode.A))
+        {
             transform.position += transform.forward * velocidad * Time.deltaTime;
         }
         //Cuando presione la letra space hago un disparo
-        if (Input.GetKey(KeyCode.Space)){
-            Instantiate(bala, transform.position, transform.rotation); 
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Instantiate (bala, transform.position, transform.rotation); 
         }
     }
        
