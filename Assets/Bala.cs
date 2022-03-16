@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour
 {
-    public float velocidad = 2f;
+    public float velocidad=2f;
     // Start is called before the first frame update
     void Start()
     {
