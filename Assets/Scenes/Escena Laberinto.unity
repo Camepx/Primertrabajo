@@ -232,7 +232,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -443,7 +443,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -595,7 +595,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -747,7 +747,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 668686685}
-  esfera: {fileID: 1380954394}
+  rock: {fileID: 1380954394}
 --- !u!1 &677208264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 712561291}
-  esfera: {fileID: 623558645}
+  rock: {fileID: 623558645}
 --- !u!1 &723258143
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,7 +1181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 723258143}
-  esfera: {fileID: 1332771808}
+  rock: {fileID: 1332771808}
 --- !u!1 &723604000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,6 +1194,7 @@ GameObject:
   - component: {fileID: 723604003}
   - component: {fileID: 723604002}
   - component: {fileID: 723604001}
+  - component: {fileID: 723604005}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1280,6 +1281,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &723604005
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723604000}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &835073729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,7 +1589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 918382131}
-  esfera: {fileID: 235736263}
+  rock: {fileID: 235736263}
 --- !u!1 &1028554090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,7 +1755,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1950,7 +1967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 1272041480}
-  esfera: {fileID: 1829227104}
+  rock: {fileID: 1829227104}
 --- !u!1 &1332771803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,7 +2077,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2174,7 +2191,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2362,7 +2379,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2769,7 +2786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 1960640655}
-  esfera: {fileID: 97901361}
+  rock: {fileID: 97901361}
 --- !u!1 &2075089246
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,4 +2898,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activarTrampa: {fileID: 2075089246}
-  esfera: {fileID: 560321300}
+  rock: {fileID: 560321300}
