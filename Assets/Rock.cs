@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rock : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Rock : MonoBehaviour
         {
             // En la consola de Unity aparece que perdi
             Debug.Log("Game Over");
-            Application.LoadLevel("EscenaLaberinto");
+            SceneManager.LoadScene("EscenaLaberinto");
         }
     }
     // Start is called before the first frame update
