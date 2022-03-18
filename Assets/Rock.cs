@@ -11,7 +11,7 @@ public class Rock : MonoBehaviour
         {
             // En la consola de Unity aparece que perdi
             Debug.Log("Game Over");
-            
+            Application.LoadLevel("EscenaLaberinto");
         }
     }
     // Start is called before the first frame update
