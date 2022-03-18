@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 97901360}
   - component: {fileID: 97901359}
   - component: {fileID: 97901358}
+  - component: {fileID: 97901361}
   m_Layer: 0
   m_Name: Sphere (6)
   m_TagString: Untagged
@@ -220,6 +221,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97901356}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &97901361
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97901356}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &132792143
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +346,7 @@ GameObject:
   - component: {fileID: 235736262}
   - component: {fileID: 235736261}
   - component: {fileID: 235736260}
+  - component: {fileID: 235736263}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -414,6 +432,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235736258}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &235736263
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235736258}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &497167668
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +498,7 @@ GameObject:
   - component: {fileID: 560321299}
   - component: {fileID: 560321298}
   - component: {fileID: 560321297}
+  - component: {fileID: 560321300}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -549,6 +584,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560321295}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &560321300
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560321295}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &601439544
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +650,7 @@ GameObject:
   - component: {fileID: 623558644}
   - component: {fileID: 623558643}
   - component: {fileID: 623558642}
+  - component: {fileID: 623558645}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Untagged
@@ -684,6 +736,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623558640}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &623558645
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623558640}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &668686685
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,6 +764,7 @@ GameObject:
   - component: {fileID: 668686689}
   - component: {fileID: 668686688}
   - component: {fileID: 668686687}
+  - component: {fileID: 668686690}
   m_Layer: 0
   m_Name: Trampa (4)
   m_TagString: Untagged
@@ -726,7 +795,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668686685}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -781,6 +850,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668686685}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &668686690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668686685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 668686685}
+  esfera: {fileID: 1380954394}
 --- !u!1 &677208264
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +970,7 @@ GameObject:
   - component: {fileID: 712561295}
   - component: {fileID: 712561294}
   - component: {fileID: 712561293}
+  - component: {fileID: 712561296}
   m_Layer: 0
   m_Name: Trampa (2)
   m_TagString: Untagged
@@ -917,7 +1001,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712561291}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -972,6 +1056,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712561291}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &712561296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712561291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 712561291}
+  esfera: {fileID: 623558645}
 --- !u!1 &723258143
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +1082,7 @@ GameObject:
   - component: {fileID: 723258147}
   - component: {fileID: 723258146}
   - component: {fileID: 723258145}
+  - component: {fileID: 723258148}
   m_Layer: 0
   m_Name: Trampa 3)
   m_TagString: Untagged
@@ -1014,7 +1113,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723258143}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1069,6 +1168,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723258143}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &723258148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723258143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 723258143}
+  esfera: {fileID: 1332771808}
 --- !u!1 &723604000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1473,7 @@ GameObject:
   - component: {fileID: 918382135}
   - component: {fileID: 918382134}
   - component: {fileID: 918382133}
+  - component: {fileID: 918382136}
   m_Layer: 0
   m_Name: Trampa (1)
   m_TagString: Untagged
@@ -1390,7 +1504,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918382131}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1445,6 +1559,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918382131}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &918382136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918382131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 918382131}
+  esfera: {fileID: 235736263}
 --- !u!1 &1028554090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,9 +1623,10 @@ GameObject:
   - component: {fileID: 1130259507}
   - component: {fileID: 1130259506}
   - component: {fileID: 1130259510}
+  - component: {fileID: 1130259511}
   m_Layer: 0
   m_Name: Personaje principal
-  m_TagString: Untagged
+  m_TagString: Carro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1510,7 +1639,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130259504}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1595,6 +1724,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   micar: {fileID: 1130259504}
+  velocidad: 20
+  bala: {fileID: 0}
+--- !u!54 &1130259511
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130259504}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1233235512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +1851,7 @@ GameObject:
   - component: {fileID: 1272041484}
   - component: {fileID: 1272041483}
   - component: {fileID: 1272041482}
+  - component: {fileID: 1272041485}
   m_Layer: 0
   m_Name: Trampa
   m_TagString: Untagged
@@ -1734,7 +1882,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272041480}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1789,6 +1937,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272041480}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1272041485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272041480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 1272041480}
+  esfera: {fileID: 1829227104}
 --- !u!1 &1332771803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,6 +1963,7 @@ GameObject:
   - component: {fileID: 1332771807}
   - component: {fileID: 1332771806}
   - component: {fileID: 1332771805}
+  - component: {fileID: 1332771808}
   m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: Untagged
@@ -1886,6 +2049,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332771803}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1332771808
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332771803}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1380954389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,6 +2077,7 @@ GameObject:
   - component: {fileID: 1380954393}
   - component: {fileID: 1380954392}
   - component: {fileID: 1380954391}
+  - component: {fileID: 1380954394}
   m_Layer: 0
   m_Name: Sphere (5)
   m_TagString: Untagged
@@ -1983,6 +2163,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380954389}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1380954394
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380954389}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1623390169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2069,6 +2265,7 @@ GameObject:
   - component: {fileID: 1829227103}
   - component: {fileID: 1829227102}
   - component: {fileID: 1829227101}
+  - component: {fileID: 1829227104}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -2154,6 +2351,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829227099}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1829227104
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829227099}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1836098287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,6 +2670,7 @@ GameObject:
   - component: {fileID: 1960640659}
   - component: {fileID: 1960640658}
   - component: {fileID: 1960640657}
+  - component: {fileID: 1960640660}
   m_Layer: 0
   m_Name: Trampa (5)
   m_TagString: Untagged
@@ -2487,7 +2701,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960640655}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2542,6 +2756,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960640655}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1960640660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960640655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 1960640655}
+  esfera: {fileID: 97901361}
 --- !u!1 &2075089246
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2782,7 @@ GameObject:
   - component: {fileID: 2075089250}
   - component: {fileID: 2075089249}
   - component: {fileID: 2075089248}
+  - component: {fileID: 2075089251}
   m_Layer: 0
   m_Name: Trampa (6)
   m_TagString: Untagged
@@ -2584,7 +2813,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075089246}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2639,3 +2868,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075089246}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2075089251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075089246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd07f28036ea24bceb191b62f7aa8e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activarTrampa: {fileID: 2075089246}
+  esfera: {fileID: 560321300}
