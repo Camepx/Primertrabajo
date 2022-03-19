@@ -11,7 +11,7 @@ public class CarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = new Vector3(-2.35F, 1.3F, -7.14F);
     }
 
     // Update is called once per frame
